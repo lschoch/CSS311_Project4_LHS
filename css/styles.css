@@ -9,22 +9,29 @@
     font-size:small;
 }
 
-#composer {
-    padding-top:10px;
+#composer, #mozart {
+    padding-top:15px;
     padding-bottom:10px;
 }
 
-.row {
+/* Toggle grid lines visibility. */
+/* .row {
     border: 1px solid rgb(230, 230, 230);
 }
 
-.col {
+.col, .col-2, .col-4, .col-6 {
     border: 1px solid rgb(230, 230, 230);
-}
+} */
 
-#txt {
+#txt, .col-4, .col-6 {
     padding-left:15px;
     padding-top:15px;
     padding-right:15px;
     padding-bottom:15px;
+}
+
+.lines {
+        text-decoration-line: underline;
+        text-decoration-style: double;
+        text-decoration-color: black;
 }
