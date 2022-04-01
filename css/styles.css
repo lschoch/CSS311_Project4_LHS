@@ -14,9 +14,15 @@
     padding-bottom:10px;
 }
 
-.col-3, .col-9 {
+.col-9 {
     border: 1px solid  lightgrey;
 } 
+
+.col-3 {
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
 
 #txt, .col-4, .col-6 {
     padding-left:15px;
@@ -38,4 +44,15 @@
 
 .col-9 {
     background-color:azure;
+}
+
+#wag, #moz, #puc, #ver, #biz {
+    padding-top:5px;
+}
+
+#ctr {
+    text-align: center;
+    background-color: lightgrey;
+    padding-top:10px;
+    padding-bottom:10px;
 }
