@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#row1, #row2 {
+    background-color: azure;
+}
+
+#row3, #row4 {
+    background-color: beige;
+}
+
+#title, #row1, #row3 {
+    padding-top: 10px;
+}
+
+#title, #row2, #row4 {
+    border-bottom: 1px solid black;
+}
+
+#title {
+    border-top: 1px solid black;
+}
